@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* CSS pour le tableau */
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+/* CSS pour le tableau */
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+/* CSS pour colorer les lignes paires */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #d4d5d6;
+}
+/* Barre de recherche */
+/* centrer la barre de recherche */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* aggrandir la largeur de la barre de recherche */
+.input-group {
+  width: 400px;
+  max-width: 100%;
+}
+
+/* changer la forme en rond de la barre de recherche */
+.form-control {
+  border-radius: 25px;
+}
+
+/* ajuster l'apparence du bouton de recherche */
+.btn-primary {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+

@@ -1,0 +1,6 @@
+{
+  "git.enabled": true,
+  "themeCheck.checkOnChange": false,
+  "themeCheck.checkOnOpen": false,
+  "shopifyLiquid.languageServerPath": ""
+}

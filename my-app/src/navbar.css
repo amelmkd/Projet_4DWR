@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar a:hover {
+    color: #000;
+  }
+  .navbar-wide {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-tall {
+    height: 80px;
+  }
+  
